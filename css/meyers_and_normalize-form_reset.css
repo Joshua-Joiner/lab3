@@ -219,3 +219,71 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
+/* Mobile form with shades of gray and open design */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+label {
+  font-size: 1em;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  background-color: #e0e0e0;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #444;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* Add plenty of padding and white space */
+body {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  background-color: #fff;
+  padding: 20px;
+}
+
+form > * {
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 100px;
+}
